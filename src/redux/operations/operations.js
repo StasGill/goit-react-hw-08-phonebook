@@ -4,7 +4,6 @@ import {
   setLoading,
   signUp,
   signIn,
-  signOut,
   setError,
 } from "../../redux/actions/actions";
 

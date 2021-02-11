@@ -3,7 +3,7 @@ import { createStore, applyMiddleware } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 import Reducer from "./reducer/Reduser";
 import thunk from "redux-thunk";
-import { persistStore, persistReducer } from "redux-persist";
+import { persistStore } from "redux-persist";
 
 const middleWares = [thunk];
 

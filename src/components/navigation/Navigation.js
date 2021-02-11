@@ -2,7 +2,7 @@ import React from "react";
 import { CSSTransition } from "react-transition-group";
 import { NavLink } from "react-router-dom";
 import "../app.css";
-import { connect, useDispatch } from "react-redux";
+import { connect } from "react-redux";
 import style from "./Navigation.module.css";
 
 const Navigation = ({ warning, isAuth }) => {

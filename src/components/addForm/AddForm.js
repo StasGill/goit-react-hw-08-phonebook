@@ -19,8 +19,6 @@ const initialState = {
 const AddForm = ({ contacts, addNumber, deleteNumber, setWarning }) => {
   const [state, setState] = useState({ ...initialState });
 
-  console.log("reRender");
-
   const dispatch = useDispatch();
 
   const onChange = (e) => {

@@ -1,12 +1,8 @@
 import React from "react";
-import Navigation from "../components/navigation/Navigation";
+
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { connect, useDispatch } from "react-redux";
-import {
-  addNewNumber,
-  deleteNumber,
-  setFilter,
-} from "../redux/actions/actions";
+import { deleteNumber, setFilter } from "../redux/actions/actions";
 import { deleteNumberOperation } from "../redux/operations/operations";
 import AddForm from "../components/addForm/AddForm";
 import ContactList from "../components/contactList/ContactList";
